@@ -1,36 +1,35 @@
 .container{
-    text-align: center;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
 }
-.column{
+.column{                      
     position: relative;
     display: inline-block;
+}
+.top {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.row{
+    text-align: center;
 }
 .sconto{
     position: absolute;
     z-index: 1;
     top: 0;
     right: 0;
-}
-.heart{
-    position: absolute;
-    top: 340px;
-    left: 150px;
-    display: none;
-}
-.green{
     background-color: green;
 }
 .red{
     background-color: red;
 }
-
-.column:hover > .heart{
+.heart{
+    position: absolute;
+    top: 340px;
+    left: 50%;
+    display: none;
     color: red;
-    display: block;
 }
-.top {
-    margin-bottom: 40px;
-    margin-top: 40px;
+.column:hover .heart{
+    display: block;
 }
