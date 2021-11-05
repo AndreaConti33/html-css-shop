@@ -1,17 +1,21 @@
 .container{
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
 }
 .column{                      
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
+    /* margin: 10px; */
 }
 .top {
     margin-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 40px; 
 }
 .row{
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    justify-content:center;
+    gap: 10px;
 }
 .sconto{
     position: absolute;
